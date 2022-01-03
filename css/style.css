@@ -7,6 +7,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .top-banner {
@@ -20,8 +21,9 @@ section {
     padding-left: 5%;
 }
 
-.img-div {
+.img-right {
     text-align: right;
+    height: 500px;
 }
 
 h1 {
@@ -40,4 +42,15 @@ h1 {
     font-weight: 700;
     background-image: linear-gradient(#FF9974, #FF6B4E);
     padding: 10px 40px;
+}
+
+.dream-big {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dream-big-title {
+    color: orange;
+    letter-spacing: 3px;
 }
